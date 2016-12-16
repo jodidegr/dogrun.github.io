@@ -1,0 +1,71 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS Animations.
+// -----------------------------------------------------------------------------
+
+@include keyframes(rotatePulse) {
+  0%   { @include rotate(0) }
+  100% { @include rotate(360)  }
+}
+
+@include keyframes(inputHighlighter) {
+  from { background: $primary; }
+  to 	{ width: 0; background: transparent; }
+}
+
+
+@include keyframes(ripples) {
+  0% { opacity: 0; }
+
+  25% { opacity: 1; }
+
+  100% {
+    width: 200%;
+    padding-bottom: 200%;
+    opacity: 0;
+  }
+}
+
+@include keyframes(doekeewa-animate-1)
+{
+  0% {
+    @include transform( scale(.75) rotate(0deg));
+  }
+  20% {
+    @include transform( scale(1) rotate(72deg));
+  }
+  40% {
+    @include transform( scale(.75) rotate(144deg));
+  }
+  60% {
+    @include transform( scale(1) rotate(216deg));
+  }
+  80% {
+    @include transform( scale(.75) rotate(288deg));
+  }
+  100% {
+    @include transform( scale(1) rotate(360deg));
+  }
+}
+
+@include keyframes(doekeewa-animate-2)
+{
+  0% {
+
+    @include transform( scale(.90) rotate(0deg));
+  }
+  20% {
+    @include transform( scale(1) rotate(72deg));
+  }
+  40% {
+    @include transform( scale(.90) rotate(144deg));
+  }
+  60% {
+    @include transform( scale(1) rotate(216deg));
+  }
+  80% {
+    @include transform( scale(.90) rotate(288deg));
+  }
+  100% {
+    @include transform( scale(.90) rotate(360deg));
+  }
+}

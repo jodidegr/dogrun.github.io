@@ -1,0 +1,75 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+$default-font-size: 16;
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Museo','Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+
+
+
+/// Copy text color
+/// @type Color
+$text-color: rgb(34, 34, 34) !default;
+
+/// Main brand color
+/// @type Color
+$primary: rgb(196, 31, 81) !default;
+
+/// Secondary brand color
+/// @type Color
+$pink: rgb(229, 81, 117) !default;
+
+/// Third brand color
+/// @type Color
+$salmon: rgb(239, 161, 174) !default;
+
+
+
+/// Light Pink
+/// @type Color
+$light-pink: rgb(252, 215, 218) !default;
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(242, 242, 240) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+
+
+
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+$xxsm  : 0/$default-font-size * 1rem;
+$xsm   : 320/$default-font-size * 1rem;
+$sm    : 480/$default-font-size * 1rem;
+$md    : 680/$default-font-size * 1rem;
+$lg    : 960/$default-font-size * 1rem;
+$xlg   : 1140/$default-font-size * 1rem;
+$xxlg  : 1440/$default-font-size * 1rem;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
