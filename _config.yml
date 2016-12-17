@@ -37,3 +37,4 @@ exclude:
   - Gemfile
   - LICENSE
   - README.md
+theme: jekyll-theme-cayman
